@@ -9,8 +9,8 @@ p1.onclick = function () {
 let myImage: HTMLElement = document.getElementById("img1");
 myImage.onclick = function () {
     let mySrc: string = myImage.getAttribute("src");
-    let kuwoSrc: string = "../images/kuwo-icon.jpg";
-    let headSrc: string = "../images/head_icon.jpg";
+    let kuwoSrc: string = "images/kuwo-icon.jpg";
+    let headSrc: string = "images/head_icon.jpg";
     if (mySrc == kuwoSrc) {
         myImage.setAttribute("src", headSrc);
     }

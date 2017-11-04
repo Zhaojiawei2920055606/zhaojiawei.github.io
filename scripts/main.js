@@ -7,8 +7,8 @@ p1.onclick = function () {
 var myImage = document.getElementById("img1");
 myImage.onclick = function () {
     var mySrc = myImage.getAttribute("src");
-    var kuwoSrc = "../images/kuwo-icon.jpg";
-    var headSrc = "../images/head_icon.jpg";
+    var kuwoSrc = "images/kuwo-icon.jpg";
+    var headSrc = "images/head_icon.jpg";
     if (mySrc == kuwoSrc) {
         myImage.setAttribute("src", headSrc);
     }

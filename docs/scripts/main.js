@@ -1,4 +1,4 @@
-var myHeading = document.querySelector("h1");
+var myHeading = document.getElementById("h3");
 myHeading.innerHTML = 'Hello world!';
 var p1 = document.getElementById("p1");
 p1.onclick = function () {

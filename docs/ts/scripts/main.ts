@@ -1,4 +1,4 @@
-let myHeading: Element = document.querySelector("h1");
+let myHeading: Element = document.getElementById("h3");
 myHeading.innerHTML = 'Hello world!';
 
 let p1: HTMLElement = document.getElementById("p1");
